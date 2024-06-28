@@ -109,10 +109,10 @@ pip install ffmpeg
 
 import bar_chart_race as bcr
 
-bcr.bar_chart_race(df_yarisan,filename='m.denizli.mp4', figsize=(10, 8),
+bcr.bar_chart_race(df_yarisan,filename='esra.denizli.mp4', figsize=(10, 8),
                   period_length=500,#toplam video uzunluğu
                    steps_per_period=10, #değişim hızı
-                  title='COVID-19 @mehmet_denizli')
+                  title='COVID-19 @esraden')
 
 !pip install bar_chart_race
 
